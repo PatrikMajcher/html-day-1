@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Registration Form</h1>
     <form>
-        <label for="Firstname">Firstname</label>
-        <input type="text" placeholder="John..."
-        id="Firstname">
+      <label for="Firstname">Firstname</label>
+      <input type="text" placeholder="John..." id="Firstname" />
     </form>
-    <br>
-    <form>
-        <label for="Lastname:">Lastname:</label>
-        <input type="text" placeholder="Doe..."
-        id="Lastname:">
-    </form>
-    
-</body>
+    <br />
+
+    <label for="Lastname:">Lastname:</label>
+    <input type="text" placeholder="Doe..." id="Lastname:" />
+    <br />
+    <br />
+    <br />
+    <label for="course">Select your Course</label>
+    <select name="courses" id="courses">
+      <option value="fullstack">Full stack web developer</option>
+      <option value="front-end">Front-end Developer</option>
+      <option value="back-end">Back-end Developer</option>
+    </select>
+    <br />
+    <br />
+    <br />
+    <label for="gender">Gender:</label>
+    <br />
+    <input type="radio" name="gender" value="male" checked /> Male<br />
+    <input type="radio" name="gender" value="female" /> Female<br />
+    <input type="radio" name="gender" value="other" /> Other
+  </body>
 </html>
